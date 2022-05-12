@@ -11,14 +11,16 @@ def get_countries_data():
               "X-RapidAPI-Key": "8eed59ad4amshb19701492d67fefp1d23aajsn91dd4cea7743"}
 
     response_data = []
+    logging.info("Requesting Covid API...")
     try:
         response = requests.get(base_url, headers=header)
         if response.ok:
+            logging.info(f"API response status code: {response.status_code}")
             response_data = response.json()
         else:
-            print(f"Invalid status code: {response.status_code}")
+            logging.info(f"Invalid status code: {response.status_code}")
     except Exception as e:
-        print(f"Exception occurred while calling API: {e.__traceback__}")
+        logging.info(f"Exception occurred while calling API: {e.__traceback__}")
         raise e
 
     final_df = pd.DataFrame()
