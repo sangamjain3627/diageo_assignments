@@ -1,0 +1,5 @@
+flask==2.1.1
+pandas==1.2.1
+pandasql==0.7.3
+requests==2.27.1
+pyspark==3.2.1
