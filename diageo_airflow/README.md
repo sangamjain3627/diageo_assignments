@@ -6,8 +6,8 @@
 
 This project aims to build understanding and working knowledge of **Airflow** by creating a dag **weather_dag** and loading weather data into a table using **postgres** database
 
-Download the github zip file to and extract this folder on your PC
-Navigate to this folder extracted folder path in your terminal window and run the follwing docker command:
+Download this github project's zip file and extract this file on your PC.  
+Navigate to this extracted folder path in your terminal window and run the follwing docker command:
 > docker-compose -f docker-compose-weather.yml up -d
 
 This will run the **.yml** file and pull required images and mount required directory path in the container created for the images.
