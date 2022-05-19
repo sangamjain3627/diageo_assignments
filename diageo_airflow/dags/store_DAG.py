@@ -15,7 +15,7 @@ default_args = {
     'retry_delay': timedelta(seconds=5)
 }
 
-with DAG('store_dag',default_args=default_args,schedule_interval='@daily', template_searchpath=['/usr/local/airflow/sql_files'], catchup=False) as dag:
+with DAG('weather_dag',default_args=default_args,schedule_interval='0 6 * * *', template_searchpath=['/usr/local/airflow/sql_files'], catchup=False) as dag:
 
     t1 = PythonOperator(task_id='weather_data_csv_task', python_callable=weather_data_to_csv)
 
