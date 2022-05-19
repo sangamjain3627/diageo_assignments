@@ -1,5 +1,6 @@
 ## This project is about implementing Airflow Dag for Diageo training.
 
+
 **To get started, install Docker Desktop on your pc**
 
 This project aims to build understanding and working knowledge of **Airflow** by creating a dag **weather_dag** and loading weather data into a table using **postgres** database
