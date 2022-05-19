@@ -16,8 +16,8 @@ This will run the **.yml** file and pull required images and mount required dire
 Run the above command in terminal to check the running containers
 You should see **postgres** and **airflow** containers up and running
 
-To run the dag go to web address **localhost** (http://127.0.0.1:8080/) with **port-8080** being default port for airflow webserver. 
-Follow the steps below to add postgres connection into your airflow webeserver:  
+To run the dag go to web address **localhost** (http://127.0.0.1:8080/) with **port-8080** being default port for airflow webserver.    
+From airflow UI, follow the steps below to add postgres connection into your airflow webeserver:  
 1. Go to Admin -> Connections
 2. Click on **Create** tab to create a new connection
 3. Enter following parameters:  
