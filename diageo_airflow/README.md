@@ -27,7 +27,7 @@ and grab the Container Id of postgres container and run below command to enter i
 Now get the postgres **username** from **docker-compose-weather.yml** file and use it to start using postgres database by running:
 > psql -U <user_name>
 
-Connect to the database specified in docker-compose-weather.yml file using command:
+Connect to the database that is specified in **docker-compose-weather.yml** file using command:
 > \c <database_name>
 
 Now once connected to database, run select query to confirm data is loaded into **weather** table
