@@ -1,0 +1,11 @@
+State,Description,Temperature,Feels_Like_Temperature,Min_Temperature,Max_Temperature,Humidity,Clouds
+State of Maharashtra,overcast clouds,39.2,37.51,39.2,39.2,17,95
+State of Rajasthan,clear sky,42.67,39.67,42.67,42.67,10,0
+State of Punjab,clear sky,46.27,42.08,46.27,46.27,7,0
+State of Kerala,overcast clouds,27.82,30.32,27.82,27.82,70,100
+State of Bihar,scattered clouds,43.16,41.2,43.16,43.16,13,46
+State of Haryana,clear sky,45.18,40.73,45.18,45.18,6,0
+State of Gujarat,clear sky,41.79,40.2,41.79,41.79,15,0
+State of Andhra Pradesh,moderate rain,28.21,29.89,28.21,28.21,61,100
+Uttar Pradesh,clear sky,44.29,40.64,44.29,44.29,8,0
+West Bengal,scattered clouds,37.28,38.85,37.28,37.28,32,27
